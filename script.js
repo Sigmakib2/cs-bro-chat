@@ -3,13 +3,13 @@
 window.onload = function() {
     // Initialize Firebase
     var firebaseConfig = {
-        apiKey: "AIzaSyBnxka74qsQN7RprFRGh9B8DRU_WS3nfHk",
-        authDomain: "chaterbal-374c8.firebaseapp.com",
-        projectId: "chaterbal-374c8",
-        storageBucket: "chaterbal-374c8.appspot.com",
-        messagingSenderId: "1016110181605",
-        databaseURL: "https://chaterbal-374c8-default-rtdb.firebaseio.com/",
-        appId: "1:1016110181605:web:9a258fb46f51c8f7e7b80c"
+        apiKey: "AIzaSyDg6GPzTVj2HKoPCt3gi1QE9VWcHHrfffE",
+        authDomain: "chat-test-5f73e.firebaseapp.com",
+        projectId: "chat-test-5f73e",
+        storageBucket: "chat-test-5f73e.appspot.com",
+        messagingSenderId: "557630341952",
+        databaseURL: "https://chat-test-5f73e-default-rtdb.firebaseio.com/",
+        appId: "1:557630341952:web:cad5cd69cf470d7fafb0a5"
     };
     firebase.initializeApp(firebaseConfig);
     // This is very IMPORTANT!! We're going to use "db" a lot.
